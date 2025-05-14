@@ -10,11 +10,10 @@
 - 食材选择逻辑考虑了食物的单次最大推荐量和最小推荐量，并尝试平衡营养素。
 
 ## 如何运行
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/你的GitHub用户名/你的仓库名/blob/main/你的Notebook文件名.ipynb) 
-*(请将上面的链接替换为您的实际GitHub用户名、仓库名和Notebook文件名)*
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jinv2/NutritionalAssistantColab/blob/main/NutritionalAssistant.ipynb)
 
 1. 点击上面的 "Open In Colab" 徽章在Google Colab中打开本 Notebook。
-2. （可选）如果使用了独立的 `food_database.csv`，请确保在Colab中能访问到它（例如从同一GitHub仓库加载，或上传到Colab环境）。当前Notebook可能内嵌了数据库或从固定路径加载。
+2. （可选）如果使用了独立的 `food_database.csv`，请确保在Colab中能访问到它（例如从同一GitHub仓库加载，或上传到Colab环境）。当前Notebook可能内嵌了数据库或从固定路径加载。可以通过修改 Notebook 开头下载最新 CSV 的代码来确保使用 GitHub 上的最新数据。
 3. 按顺序运行Notebook中的所有单元格。
 4. 在“用户输入”单元格中按提示输入您的个人信息。
 5. 查看输出的营养需求和推荐食材方案。
@@ -36,7 +35,4 @@
 - 未来可以考虑：更复杂的优化算法、用户偏好精细处理、移植到Web框架等。
 
 ## 许可证
-本项目采用 [MIT许可证](LICENSE)。 
-*(如果添加了LICENSE文件)*
-  *   **重要：** 修改 `[![Open In Colab]...` 链接中的 `你的GitHub用户名`、`你的仓库名` 和 `你的Notebook文件名.ipynb` 为您的实际信息。
-  *   完成后，滚动到页面底部，输入Commit message (例如 `Update README with project details and Colab badge`)，然后点击 **"Commit changes"**。
+本项目采用 [MIT许可证](LICENSE)。
